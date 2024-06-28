@@ -25,7 +25,7 @@ function Signup() {
     ) {
       alert("please fill all fields");
     } else {
-      Axios.post("https://localhost:3001/api/insert", {
+      Axios.post("https://loginbackend-if38.onrender.com:3001/api/insert", {
         name: name,
         email: email,
         password: password,
